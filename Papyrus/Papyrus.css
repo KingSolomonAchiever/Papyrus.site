@@ -1,0 +1,1545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+
+
+
+#NavBarContainerDiv{
+    background-color: #a78713;
+    align-items: center;
+     padding: 8px;
+   
+
+}
+#NavBarContainerDiv h2{
+    font-family: dom-casual;
+
+     text-align: center;
+     color: #fff9e9;
+}
+#GeneralNavBar a{
+   text-decoration: none;
+   padding-left: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+ 
+  
+}
+
+ #celebrationNav{
+    margin-left: 650px;
+}
+
+#celebrationNav:hover{
+    color: #bd5a69;
+    cursor: pointer;
+}
+
+#celebrationNavDropDown{
+    width: 250px;
+    height: 300px;
+    display: none;
+    border-radius: 5px;
+    margin-left: 600px;
+    z-index: 999;
+    position: absolute;
+    background-color: whitesmoke;
+   
+}
+
+#celebrationNavDropDown a:hover{
+    color: #bd5a69;
+}
+
+#celebrationNavDropDown a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#LifestyleNav{
+    position: relative;
+}
+
+
+
+#LifestyleNav:hover{
+color: #bd5a69;
+/* position: relative; */
+}
+
+#LifestyleNavDropDown{
+    width: 250px;
+    height: 450px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 800px;
+    /* top: 100%; */
+}
+
+#LifestyleNavDropDown a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+#LifestyleNavDropDown a:hover{
+    color: #bd5a69;
+}
+
+#inputSearchDiv{
+    display: none;
+}
+
+#AboutDropdown{
+    width: 250px;
+    height: 270px;
+    display: none;
+    z-index: 999;
+    border-radius: 5px;
+    position: absolute;
+    background-color: whitesmoke;
+    margin-left: 950px;
+}
+
+#AboutDropdown a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+} 
+#AboutDropdown a:hover{
+    color: #bd5a69;
+}
+
+#locationDot{
+    color: #ba338a;
+    padding-right: 5px;
+    margin-left: 3px ;
+    display: inline-block
+}
+
+#AboutNav:hover{
+    color: #ba338a;
+}
+#img1{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+#bodyContentDiv {
+    text-align: center;
+
+}
+#bodyContentDiv h2{
+    color: #a78713;
+    font-family: Helvetica ;
+}
+
+#bodyContentDiv h3{
+    color: #ba338a;
+    font-family: clarion;
+    
+    text-align: center;
+}
+#IconCart1{
+    display: inline-block;
+    margin-left: 1090px;
+    padding: 5px;
+      color: #ba338a;
+}
+#IconCart{
+    display: inline-block;
+    padding: 5px;
+    color: #ba338a;
+}
+
+#IconCart1:hover{
+    cursor: pointer;
+}
+
+#IconCart:hover{
+    cursor: pointer;
+}
+
+
+
+
+.carousel-container {
+    width: 80%;
+    overflow: hidden; /* Hide images that are not in view */
+    margin: auto;
+    position: relative;
+}
+
+.carousel-track {
+
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+.carousel-item {
+    min-width: 100%; /* Full width of the container */
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 800px;
+    display: block;
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-container2 {
+    width: 80%;
+    overflow: hidden; /* Hide images that are not in view */
+    margin: auto;
+    position: relative;
+}
+
+.carousel-track2 {
+
+    
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+.carousel-item2 {
+    min-width: 100%; /* Full width of the container */
+    box-sizing: border-box;
+}
+
+
+
+/* Navigation buttons */
+.prev2, .next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+#imageContainer{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+}
+
+
+#imageCont{
+    width: 300px;
+    height: 300px;
+}
+
+#MomentsDiv {
+    text-align: center;
+}
+
+#MomentsDiv h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: #717171;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px; /* Just for some spacing */
+}
+
+/* Styling for the search icon */
+.search-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Styling for the search input */
+.search-input {
+    display: none; /* Initially hidden */
+    margin-left: 1000px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Show the input when it has the 'active' class */
+.search-input.active {
+    display: block;
+}
+
+#LoginContainer{
+    width: 480px;
+    height: 300px;
+    border: 1px solid #cbd5ed;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+#LabelPassword{
+    display: block;
+    font-weight: 600;
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+   
+    margin-bottom: 15px;
+}
+
+#LabelAddress{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 600;
+    color: black;  
+    margin-left: 30px;
+}
+
+#InputLogin1{
+    display: block;
+    margin-left: 30px;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #cbd5ed;
+    
+}
+
+#InputLogin2{
+    display: block;
+    margin-left: 30px;
+    padding-right: 149px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #cbd5ed;
+    
+}
+
+#loginButton{
+    padding: 6px 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    background-color: #ba338a;
+    color: white;
+    border: none;
+}
+
+#loginButton:hover{
+    border: 2px solid  #ba338a;
+    background-color: white;
+    color: #ba338a;
+}
+#forgetPassword{
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: #ba338a;
+
+}
+
+#forgetPassword:hover{
+    color: black;
+}
+
+#RememberMe{
+    text-decoration: none;
+}
+
+#RegisterContainer{
+    width: 480px;
+    height: 300px;
+    border: 1px solid #cbd5ed;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+#paragraphTag{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#AccountGeneralContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#loginHeading{
+    text-align: center;
+    color: #ba338a;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#registerHeading{
+    text-align: center;
+    color: #ba338a;
+    font-size: 30px;
+    margin-bottom: 15px;                                                 
+    margin-top: 10px;
+}
+
+#headingTagMyAccount{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    color: #bd5a69;
+}
+
+#horizontalLine{
+    border: 1px solid #ba338a;
+    width: 160px;
+   display: block;
+   margin-left: 550px;
+   color: #ba338a;
+   margin-top: 20px;
+   background-color: #ba338a;
+}
+
+
+
+
+
+.vertical-line {
+    width: 2px; /* Line thickness */
+    height: 30px; /* Line height */
+    background-color: #a78713; /* Line color */
+    /* margin: 0 20px; Optional: spacing around the line */
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#navBarGreeting{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 100px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    color:black;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: palatino;
+    letter-spacing: 2px;
+}
+
+#navBarGreeting1{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    color:black;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: palatino;
+    letter-spacing: 2px;
+    /* margin-bottom: 20px; */
+  
+}
+
+#categoryContainer  a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+
+}
+#categoryContainer{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    /* z-index: 999; */
+}
+
+#occasionsContainer a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+}
+
+#occasionsContainer{
+    width: 300px;
+    border-left: 2px solid #a78713;
+    height: 400px;
+    background-color: white;
+}
+
+#holidayContainer{
+    width: 300px;
+    border-left: 2px solid #a78713;
+    height: 400px;
+    background-color: white;
+}
+
+#holidayContainer a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#ColectionsContainer{
+    width: 300px;
+    border-left: 2px solid #a78713;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#ColectionsContainer a{
+    text-decoration: none;
+    display: block;
+   margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+  
+}
+#ColectionsContainer h1{
+    text-align: center;
+    margin-top: 10px ;
+    font-weight: 510;
+    color: #ba338a;
+    font-size: 25px;
+    cursor: pointer;
+}
+#ColectionsContainer hr{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: #ba338a;
+
+}
+#generalHoverContainer{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    /* margin: auto; */
+   display: none;
+   margin-bottom: 20px;
+}
+
+
+#giftPackagingContainer{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    /* margin: auto; */
+   display: none;
+   margin-bottom: 20px;
+   margin-left: 200px;
+}
+
+
+#holidayContainer h1{
+    text-align: center;
+    cursor: pointer;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+}
+
+#holidayContainer hr{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: #ba338a;
+
+}
+
+
+
+#occasionsContainer h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-size: 25px;
+    margin-top: 10px ;
+
+}
+
+
+#occasionsContainer hr{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: #ba338a;
+
+}
+
+
+
+#categoryContainer h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+}
+
+
+#categoryContainer hr{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: #ba338a;
+
+}
+
+
+
+#categoryContainer a:hover{
+    color: #ba338a;
+}
+#occasionsContainer a:hover{
+    color: #ba338a;
+}
+
+#holidayContainer a:hover{
+    color: #ba338a;
+}
+
+#ColectionsContainer a:hover{
+    color: #ba338a;
+}
+
+#giftCategoryContainer {
+   
+    width: 300px;
+   
+    height: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+#giftCategoryContainer a{
+
+
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+#giftHolidaysContainer{
+    
+    width: 300px;
+    border-left: 2px solid #a78713;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#giftHolidaysContainer a{
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+#giftOccassionContainer{
+    width: 300px;
+    border-left: 2px solid #a78713;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+} 
+
+
+#giftOccassionContainer a{
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#giftOccassionContainer  h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+}
+
+#giftHolidaysContainer  h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+}
+
+#giftCategoryContainer h1{
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+}
+
+
+#sameId{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: #ba338a;
+
+}
+
+#giftCategoryContainer a:hover{
+    color: #ba338a;
+}
+#giftHolidaysContainer a:hover{
+    color: #ba338a;
+}
+#giftOccassionContainer a:hover{
+    color: #ba338a;
+}
+
+
+#candleCategory{
+
+
+    width: 300px;
+    /* border-left: 2px solid #a78713; */
+    height: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+} 
+
+#candleCategory a{
+
+
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+#candleCategory h1{
+
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+   
+}
+
+
+#candleCategory hr{
+width: 140px;
+margin-left: 80px;
+margin-top: 5px;
+background-color: #ba338a;
+
+}
+
+
+
+
+
+
+
+
+#candleOccasion{
+
+
+    width: 300px;
+    /* border-left: 2px solid #a78713; */
+    height: 400px;
+    background-color: white;
+    border-left: 2px solid #a78713;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+} 
+
+#candleOccasion a{
+
+
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+#candleOccasion h1{
+
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+   
+}
+
+
+#candleOccasion hr{
+width: 140px;
+margin-left: 80px;
+margin-top: 5px;
+background-color: #ba338a;
+
+}
+
+
+#candleCollectionContainer{
+
+
+    width: 300px;
+    /* border-left: 2px solid #a78713; */
+    height: 400px;
+    background-color: white;
+    border-left: 2px solid #a78713;
+    margin-bottom: 20px;
+    /* margin-left: 100px;  */
+     margin-right: 200px; 
+} 
+
+#candleCollectionContainer a{
+
+
+    text-decoration: none;
+    display: block;
+   margin-top: 30px;
+   color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+#candleCollectionContainer h1{
+
+    text-align: center;
+    cursor: pointer;
+    font-weight: 510;
+    color: #ba338a;
+    font-weight: 510;
+    font-size: 25px;
+    margin-top: 10px ;
+   
+}
+
+
+#candleCollectionContainer hr{
+width: 140px;
+margin-left: 80px;
+margin-top: 5px;
+background-color: #ba338a;
+
+}
+
+
+#candleCollectionContainer a:hover{
+    color: #ba338a;
+}
+
+
+
+#candleCategory a:hover{
+    color: #ba338a;
+}
+
+#candleOccasion a:hover{
+    color: #ba338a;
+}    
+
+#candleCategoryContainer{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    /* margin: auto; */
+   display: none;
+   margin-bottom: 20px;
+   margin-left: 100px;  
+   border-bottom: whitesmoke 3px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling for the navbar */
+#NavBarContainerDiv {
+    background-color: #a78713;
+    align-items: center;
+    padding: 8px;
+}
+
+/* Centering the h2 inside the navbar */
+#NavBarContainerDiv h2 {
+    font-family: dom-casual;
+    text-align: center;
+    color: #fff9e9;
+}
+
+/* Styling links in the navbar */
+#GeneralNavBar a {
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+
+/* Responsive media queries */
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    #NavBarContainerDiv {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #GeneralNavBar a {
+        display: block;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    #celebrationNavDropDown,
+    #LifestyleNavDropDown,
+    #AboutDropdown {
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+    }
+
+    #img1 {
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-container,
+    .carousel-container2 {
+        width: 100%;
+    }
+
+    img {
+        height: auto;
+    }
+
+    /* Make dropdowns take full width */
+    #generalHoverContainer,
+    #giftPackagingContainer,
+    #candleCategoryContainer {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    /* Adjust account container */
+    #AccountGeneralContainer {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    #LoginContainer,
+    #RegisterContainer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #IconCart,
+    #IconCart1 {
+        margin-left: 0;
+    }
+}
+
+/* Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #NavBarContainerDiv {
+        padding: 12px;
+    }
+
+    #GeneralNavBar a {
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    /* Adjust carousel for tablet screens */
+    .carousel-container,
+    .carousel-container2 {
+        width: 90%;
+    }
+
+    #LoginContainer,
+    #RegisterContainer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Make dropdowns wider */
+    #celebrationNavDropDown,
+    #LifestyleNavDropDown,
+    #AboutDropdown {
+        width: 80%;
+    }
+
+    #generalHoverContainer,
+    #giftPackagingContainer,
+    #candleCategoryContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+    }
+}
+
+/* Desktop (1024px and above) */
+@media (min-width: 1024px) {
+    /* Keep original styles but make small improvements */
+    #NavBarContainerDiv {
+        padding: 15px;
+    }
+
+    #GeneralNavBar a {
+        font-size: 18px;
+    }
+
+    /* Carousel adjustments */
+    .carousel-container,
+    .carousel-container2 {
+        width: 80%;
+    }
+
+    #AccountGeneralContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #LoginContainer,
+    #RegisterContainer {
+        width: 480px;
+    }
+
+    #generalHoverContainer,
+    #giftPackagingContainer,
+    #candleCategoryContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+#img2{
+    width: 520px;
+    height: 350px;
+}
+
+#wrappingDiv{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+#subWrappingDiv h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #ba338a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#displayForm{
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+}
+#inputPadding{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: #a78713 solid 1px;
+}
+
+.inputPadding{
+    margin-top: 20px;
+}
+
+.btn{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    background-color: #ba338a;
+}
+#buttonSubscribe{
+      letter-spacing: 4px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: #a78713 solid 1px; 
+  
+}
+.styleMargin{
+    margin-left: 30px;
+    margin-top: 20px;
+  
+}
+.styleMargin2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#paragraphDisplay{
+    display: inline-block;
+    text-align: center;
+}
+
+#formContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+}
+
+.btn{
+    margin-top: 59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Icon styles */
+#accountIcon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* My Account section */
+#MyAccountSection {
+    display: none;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ccc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Show My Account section when the class 'visible' is added */
+#MyAccountSection.visible {
+    display: block;
+}
+
+/* Hide the form initially */
+.hidden {
+    display: none;
+}
+
+
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#RetailNav a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    height: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#Retailnav{
+    margin-left: 300px;
+}
+
+
+#papyrus{
+    color: #a78713;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* #d{
+    padding: 10px;
+    width: 50px;
+    height: 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#a{
+    margin-left: 100px;
+    display: inline-block;
+} */
+
+
+
+/* Basic styles */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+/*   
+  
+  
+  Responsive styles
+  @media (min-width: 768px) {
+    .form-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .form-container > div {
+      flex: 1;
+      min-width: 300px;
+    }
+  } */
+  
+
+
+  @media (max-width: 767px) {
+    #imageContainer {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    #imageCont{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+
+    #text{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #generalImageDiv {
+        flex-direction: column;
+    }
+    #wrappingDiv {
+        grid-template-columns: 1fr;
+       margin-left: 45px;
+       margin-right: 20px;
+      
+     
+    }
+
+    #inputPadding{
+        display: block;
+    }
+    #img2{
+        width: 300px;
+        /* object-fit: cover; */
+    
+}
+
+#centerDis{
+    text-align: center;
+}
+
+    
+.centerDis{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+#margin2{
+    margin: 0;
+}
+
+#formContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#formContainer > div{
+    margin-left: 100px;
+}
+
+#formContainer.form{
+    margin-right: 100px;
+}
+
+
+
+
+
+    
+
+
+  }
+
+
+
+
+
+
+
+
+  /* Basic styling for the navigation bar */
+#navLinksSubHeading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between items */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling for navigation links */
+#navLinksSubHeading a {
+    text-decoration: none;
+    color: #000; /* Change to your preferred color */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Styling for the vertical divider lines */
+/* .vertical-line {
+    border-left: 1px solid #ccc;  Divider line color 
+    height: 20px;
+} */
+
+/* Horizontal rule styling */
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc; /* Divider line color */
+    margin-bottom: 10px;
+}
+
+/* Mobile view: stack the links vertically */
+@media (max-width: 767px) {
+    #navLinksSubHeading {
+        flex-direction: column;
+    }
+    .vertical-line {
+        display: none; /* Hide vertical lines on small screens */
+    }
+}
+
+/* Tablet and larger screens: horizontal layout */
+@media (min-width: 768px) {
+    #navLinksSubHeading {
+        flex-direction: row;
+    }
+}
+
+
+/* @media (max-width: 767px) {
+    #AccountGeneralContainer {
+        flex-direction: column;
+    }
+    #LoginContainer, 
+    #RegisterContainer {
+        width: 100%;
+    }
+
+    #LoginContainer, 
+    #RegisterContainer {
+        width: 48%;
+    }
+
+    #closeButton {
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    padding-left: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
